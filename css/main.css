@@ -210,8 +210,9 @@ background-color: #fff;
 
 
 .sidebar_box p, .sidebar_box a{
-font-size: 16px;
-color: #fff;
+    font-size: 21px;
+    color: #fff;
+    margin: 25px;
 }
 
 
@@ -355,8 +356,20 @@ display: inline-block;
     width: 25%;
     vertical-align: top;
     margin-left: 20px;
+          border: 2px solid gray;
+          padding-left: 10px;
+          border-radius: 5px;
 }
 
+.client_current_info h3{
+    position: relative;
+    top: -14px;
+    background-color: #fff;
+    width: 90%;
+    margin: 0px;
+    padding: 0px 0px;
+    margin: auto;
+}
 /*Пример обращения Конец*/
 
 
