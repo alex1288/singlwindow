@@ -279,6 +279,23 @@ list-style-type: none;
   color:gray;
 }
 
+.achieve  {
+
+}
+
+
+.achieve  p{
+  
+}
+
+.achieve  img{
+  margin: auto;
+  position: relative;
+  width: 75%;
+  top: 15px;
+
+}
+
 /*------------- Обращения -------------------*/
 
 .table_mes{
