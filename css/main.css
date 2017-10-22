@@ -291,7 +291,8 @@ list-style-type: none;
 .achieve  img{
   margin: auto;
   position: relative;
-  width: 75%;
+  width: 78px;
+  height: 78px;
   top: 15px;
 
 }
@@ -425,6 +426,16 @@ margin-top: 15px;
   width: 40%;
 }
 
+.achieve_p {
+    font-size: 23px;
+    color: gray;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.28);
+    width: 80%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 25px;
+}
 /*достижения страница конец*/
 
 
