@@ -27,11 +27,32 @@ body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
   z-index: 100;
+
 }
+/*НАстройка скрола*/
+::-webkit-scrollbar{
+    width:6px;
 
-
-
-
+}
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+        border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #777;
+}
+::-webkit-scrollbar-track{
+    border-width:0;
+}
+::-webkit-scrollbar-track:hover{
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+}
+/*НАстройка скрола конец*/
 header{
   z-index: 1000;
 }
@@ -165,11 +186,12 @@ background-color: #fff;
 
 
 .main_box {
-  width: 69%;
+  width: 70%;
  // background-color: rgba(128, 128, 128, 0.32);
    height: 100vh;
      display: inline-block;
       float: left;
+       overflow-y: scroll;
 }
 
 
@@ -181,8 +203,15 @@ background-color: #fff;
      padding: 0px;
      margin: 0px;
      float: right;
+     text-align: center;
 
 
+}
+
+
+.sidebar_box p, .sidebar_box a{
+font-size: 16px;
+color: #fff;
 }
 
 
@@ -329,6 +358,45 @@ display: inline-block;
 }
 
 /*Пример обращения Конец*/
+
+
+
+/*достижения страница */
+.achieve_box  {
+width: 100%;
+}
+
+.achieve_box ul {
+  
+}
+
+.achieve_box ul li {
+  width: 24.5%;
+  display: inline-block;
+      list-style-type: none;
+
+    margin-right: 0px;
+
+    vertical-align: top;
+    border: none;
+
+    min-height: 200px;
+}
+
+.achieve_box ul li p{
+text-align: center;
+color: gray;
+font-size: 18px;
+margin-top: 15px;
+
+}
+
+.achieve_box ul li img {
+  width: 40%;
+}
+
+/*достижения страница конец*/
+
 
 /*========== Прелоадер ==========*/
     #page-preloader {
