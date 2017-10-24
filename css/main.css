@@ -31,7 +31,7 @@ body {
 }
 /*НАстройка скрола*/
 ::-webkit-scrollbar{
-    width:6px;
+    width:8px;
 
 }
 ::-webkit-scrollbar-thumb{
@@ -131,6 +131,9 @@ section {
    display: inline-block;
    vertical-align: top;
     float: left;
+    background-image: url(https://coolblindtech.com/wp-content/uploads/2014/12/dark-textures-fresh-new-hd-wallpaper-best-quality_-Dark-Textures-Fresh-New-Hd-Wallpaper-.jpg);
+    background-position: 50% 50%;
+
 }
 
 .main_menu ul{
@@ -204,6 +207,8 @@ background-color: #fff;
      margin: 0px;
      float: right;
      text-align: center;
+         background-image: url(https://coolblindtech.com/wp-content/uploads/2014/12/dark-textures-fresh-new-hd-wallpaper-best-quality_-Dark-Textures-Fresh-New-Hd-Wallpaper-.jpg);
+    background-position: 50% 50%;
 
 
 }
@@ -212,7 +217,8 @@ background-color: #fff;
 .sidebar_box p, .sidebar_box a{
     font-size: 21px;
     color: #fff;
-    margin: 25px;
+    margin: 25px 5px;
+    text-align: center;
 }
 
 
@@ -224,6 +230,33 @@ background-color: #fff;
 input {
   padding-left: 5px;
 }
+
+
+.log_list {
+    width: 90%;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    background-color: #f9f8f8;
+    border-radius: 5px;
+    overflow-y: scroll;
+     
+}
+
+.log_list::-webkit-scrollbar{
+    width:4px;
+
+}
+
+.log_list p{
+  font-size: 12px;
+  color: gray;
+      margin: 5px 5px;
+  text-align: left;
+}
+
+
+
 
 .index_box {
 
@@ -304,6 +337,8 @@ width: 75%;
   display: inline-block;
       vertical-align: top;
 }
+
+
 .mes_header{
 display: block;
 }
@@ -338,6 +373,73 @@ display: block;
 /*------------- Обращения конец -------------------*/
 
 
+/*------------- Заказы  -------------------*/
+
+.table_order{
+width: 100%;
+  display: inline-block;
+      vertical-align: top;
+}
+
+
+.order_header{
+display: block;
+}
+/*------------- Заказы конец -------------------*/
+
+
+/*------------- Почта  -------------------*/
+
+.mail_list {
+    width: 30%;
+    height: auto;
+    border-right: 2px solid gray;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.mail_list ul{
+  
+}
+
+.mail_list ul li{
+    list-style-type: none;
+    width: 100%;
+    margin-right: 1%;
+    display: block;
+    vertical-align: top;
+    border: none;
+    border-top: 0.5px solid gray;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    min-height: auto;
+    padding-bottom: 7px;
+}
+.mail_list ul li:hover{
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.mail_list ul li p {
+  
+}
+
+.mail_list ul li span {
+  
+}
+
+.mail_message{
+ width: 69%;
+     width: 69%;
+    vertical-align: top;
+    display: inline-block;
+}
+/*------------- Почта конец -------------------*/
+
+
+
 /*Пример обращения*/
 .mes_header_ex {
 display: block;
@@ -355,7 +457,7 @@ display: block;
 
 
 .chat {
-   width: 72%;
+   width: 65%;
   display: inline-block;
 }
 
@@ -364,14 +466,71 @@ display: block;
   border: 1px solid rgba(0, 0, 255, 0.21);
    height: 80vh;
    border-radius: 5px;
-   background-color: rgb(241, 240, 240);
+   //background-color: rgb(241, 240, 240);
        overflow-y: scroll;
+                    background-image: url(/img/logo-u.png);
+    background-position: 50% 50%;
+    background-size: 400px;
+        background-repeat: no-repeat;
+
+}
+
+.white_style{
+    background-color: rgba(255,255,255,0.8);
+    height: 100%;
+}
+
+
+
+
+.chat_question {
+background: rgba(123,184,231,0.5); 
+    border: 1px solid blue;
+    position: relative;
+    padding: 15px;
+    right: -15px;
+    width: 80%;
+    /* margin: auto; */
+    top: 0px;
+    margin-bottom: 25px;
+    text-align: left;
+    margin-top: 25px;
+    border-radius: 10px;
+
+}
+
+.chat_question p{
+color: #696666;
+font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.chat_answer {
+background: rgba(170,223,132,0.5); 
+    border: 1px solid green;
+    position: relative;
+    padding: 15px;
+    left: 101px;
+    width: 80%;
+    /* margin: auto; */
+    top: 0px;
+    margin-bottom: 25px;
+    text-align: right;
+    margin-top: 25px;
+    border-radius: 10px;
+    color:#fff;
+}
+
+.chat_answer p{
+color: #696666;
+font-weight: 700;
+    margin-bottom: 0px;
 }
 
 
 .client_current_info{
 display: inline-block;
-    width: 25%;
+    width: 30%;
     vertical-align: top;
     margin-left: 20px;
           border: 2px solid gray;
@@ -413,14 +572,26 @@ width: 100%;
 
     min-height: 200px;
 }
+.achieve_box .achieve_name {
+  text-align: center;
+color: gray;
+font-size: 17px;
+margin-top: 15px;
+font-weight: 900;
 
+}
 .achieve_box ul li p{
 text-align: center;
 color: gray;
-font-size: 18px;
-margin-top: 15px;
+font-size: 14px;
+    margin-top: -6px;
 
 }
+.achieve_box  {
+width: 100%;
+}
+
+
 
 .achieve_box ul li img {
   width: 40%;
