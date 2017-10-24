@@ -299,6 +299,17 @@ list-style-type: none;
 
 }
 
+.edit_info{
+position: absolute;
+    top: 4px;
+    right: 5px;
+    color: #969696;
+    font-size: 20px;
+    cursor: pointer;
+}
+.achieve, .tasks, .goal {
+  position: relative;
+}
 
 .tasks {
 
@@ -619,12 +630,26 @@ width: 100%;
 /*Страница профиля*/
 
 .avatar_img {
-
+background-color: #bcdbf2;
+border-radius: 50%;
 }
 
 .avatar_img img{
   width: 100%
 }
+
+
+.profile_info {
+
+}
+
+.profile_info h2{
+text-align: left;
+}
+.profile_info p{
+font-style: italic;
+}
+
 
 /*Страница профиля конец*/
 
