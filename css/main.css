@@ -122,7 +122,9 @@ section {
   overflow: hidden;
 }
 
-
+.coin {
+  color: green;
+}
 .main_menu {
  width: 10%;
   height: 100vh;
@@ -485,7 +487,7 @@ display: block;
 
 .chat_question {
 background: rgba(123,184,231,0.5); 
-    border: 1px solid blue;
+    border: 1px solid #a5a5ea;
     position: relative;
     padding: 15px;
     right: -15px;
@@ -507,7 +509,7 @@ font-weight: 700;
 
 .chat_answer {
 background: rgba(170,223,132,0.5); 
-    border: 1px solid green;
+    border: 1px solid #8be48b;
     position: relative;
     padding: 15px;
     left: 101px;
@@ -559,12 +561,16 @@ width: 100%;
 .achieve_box ul {
   
 }
-
+.completed_img{
+position: absolute;
+    top: 7px;
+    left: 22%;
+}
 .achieve_box ul li {
   width: 24.5%;
   display: inline-block;
       list-style-type: none;
-
+position: relative;
     margin-right: 0px;
 
     vertical-align: top;
@@ -609,6 +615,18 @@ width: 100%;
 }
 /*достижения страница конец*/
 
+
+/*Страница профиля*/
+
+.avatar_img {
+
+}
+
+.avatar_img img{
+  width: 100%
+}
+
+/*Страница профиля конец*/
 
 /*========== Прелоадер ==========*/
     #page-preloader {
