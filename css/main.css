@@ -629,6 +629,9 @@ width: 100%;
 
 /*Страница профиля*/
 
+.profile 
+
+
 .avatar_img {
 background-color: #bcdbf2;
 border-radius: 50%;
@@ -651,6 +654,86 @@ font-style: italic;
 }
 
 
+.profile_achieve {
+text-align: center;
+}
+
+.profile_achieve a{
+    position: relative;
+    top: -60px;
+}
+.profile_stats {
+  text-align: center;
+}
+
+.profile_stats a{
+    position: relative;
+        top: -20px;
+}
+
+.profile_stats_item {
+ height: 150px;
+ color: #fff;
+}
+
+.profile_stats_item h3{
+text-align: left;
+}
+
+.profile_stats_item p{
+text-align: left;
+font-size: 55px;
+    color: #fff;
+}
+
+.gold {
+background-color: #f7d621;  
+}
+
+.blue {
+background-color: #4fc4f7;
+}
+
+.green {
+background-color: #9dcf01;
+}
+
+.orange {
+background-color: #fcb026;
+}
+
+.gray{
+background-color: rgba(0,0,0, 0.5);
+}
+
+.profile_stats ul{
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 00px;
+}
+
+.profile_stats ul li{
+    list-style-type: none;
+    width: 47%;
+    margin-right: 1%;
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    min-height: 150px;
+}
+
+.profile_stats ul li h3{
+    position: relative;
+    top: 0;
+    background-color: transparent;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+        font-size: 26px;
+}
+}
 /*Страница профиля конец*/
 
 /*========== Прелоадер ==========*/
